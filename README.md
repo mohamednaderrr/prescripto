@@ -1,12 +1,93 @@
-# React + Vite
+<h1 align="center">🩺 Prescripto</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  A Modern Healthcare Appointment & Prescription Management System  
+  <br/>
+  <strong>Built with React, Node.js, Express & MongoDB</strong>
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <a href="https://mohamednaderrr.github.io/prescripto/" target="_blank"><strong>🌐 Live Demo</strong></a> • 
+  <a href="#contributing">🤝 Contribute</a>
+</p>
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Doctor & Patient Authentication (JWT)  
+✅ Book, Edit & Cancel Appointments  
+✅ Dynamic Doctor Directory with Filters  
+✅ Prescription Viewer (for patients)  
+✅ Doctor Dashboard with Slot Management  
+✅ Payment Integration via Razorpay  
+✅ Fully Responsive (Mobile-First Design)  
+✅ Clean UI/UX with Tailwind CSS
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Category    | Stack                       |
+|-------------|-----------------------------|
+| 💻 Frontend | React, Vite, Tailwind CSS   |
+| 🧠 State     | Redux Toolkit               |
+| ⚙️ Dev Tools | Git, GitHub, Vercel, Postman |
+
+## 📦 Installation
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/mohamednaderrr/Prescripto.git
+
+# 2. Install dependencies
+cd Prescripto
+npm install
+
+# 3. Add environment variables
+touch .env
+.env Example:
+
+env
+Copy
+Edit
+MONGO_URI=your_mongo_uri
+JWT_SECRET=your_jwt_secret
+RAZORPAY_KEY_ID=your_key_id
+RAZORPAY_KEY_SECRET=your_key_secret
+bash
+Copy
+Edit
+# 4. Run the app
+npm run dev
+📁 Folder Structure
+bash
+Copy
+Edit
+Prescripto/
+├── backend/              # Express API
+│   ├── controllers/
+│   ├── routes/
+│   └── models/
+├── frontend/             # React App
+│   ├── pages/
+│   ├── components/
+│   └── redux/
+├── public/
+├── .env
+└── README.md
+✨ Screens to Explore
+ Home
+ Doctor Listing + Filter
+ Appointment Booking
+ Patient Dashboard
+ Doctor Dashboard
+ Payment Flow
+ Admin Panel (optional)
+🤝 Contributing
+Fork the repo 🍴
+Create your feature branch: git checkout -b feature-name
+Commit your changes: git commit -m 'feat: add cool feature'
+Push to the branch: git push origin feature-name
+Open a pull request 💥
+📄 License
+This project is under the MIT License.
+🧑‍💻 Author
+Mohamed Nader Rashad
+Frontend Developer
+GitHub | LinkedIn
